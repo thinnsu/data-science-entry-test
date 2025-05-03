@@ -10,17 +10,16 @@
 #   - Return -1 if x and y is not numeric, and
 #   - print the swapped values if both x and y are numeric.
 #   """
-def swap(x, y):   
-   if (x.isnumeric()== False or y.isnumeric()== False):
-       print ("-1")
-   else:
-       x, y = y, x  # swapping
+def swap(x, y):
+    if x.isnumeric() == False or y.isnumeric() == False:
+        print("-1")
+    else:
+        x, y = y, x  # swapping
 
-       print("x:", x)
-       print("y:", y)
+        print("x:", x)
+        print("y:", y)
 
-   return
-
+    return
 
 swap("28", "5")
 
@@ -40,9 +39,5 @@ def swap(x, y):
     print("y:", y)
     return
 
+
 swap("Apple", 10)
-
-
-
-
-

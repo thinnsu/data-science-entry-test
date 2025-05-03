@@ -12,14 +12,15 @@ def update_dictionary(dct1, key, value):
     - If the key already exists in dct, print the original value, then update its value.
     - Return the updated dictionary.
     """
-    print(dct1) 
+    print(dct1)
     dct1.update([(key, value)])
     print(dct1)
     return
 
-dict1 = {'a': 1, 'b': 2}
 
-update_dictionary(dict1, 'b', 3)
+dict1 = {"a": 1, "b": 2}
+
+update_dictionary(dict1, "b", 3)
 
 # Task 2
 # Invoke the function "update_dictionary" using the following scenarios:
@@ -30,14 +31,10 @@ update_dictionary(dict1, 'b', 3)
 # In[141]:
 
 
-dict1 = {'name': "A", 'age': 25}
+dict1 = {"name": "A", "age": 25}
 
-update_dictionary(dict1, 'name', "Alice")
-update_dictionary(dict1, 'age', 26)
+update_dictionary(dict1, "name", "Alice")
+update_dictionary(dict1, "age", 26)
 
 
 # In[ ]:
-
-
-
-

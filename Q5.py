@@ -12,13 +12,14 @@ def check_divisibility(num, divisor):
     - Return True if num is divisible by divisor, False otherwise.
     """
 
-    if (num.isnumeric()== True and divisor.isnumeric()== True):
-        print ("True")
+    if num.isnumeric() == True and divisor.isnumeric() == True:
+        print("True")
     else:
-        print ("False")
+        print("False")
     return
 
-check_divisibility("10","2")
+
+check_divisibility("10", "2")
 # Task 2
 # Invoke the function "check_divisibility" using the following scenarios:
 # - 10, 2
@@ -28,17 +29,13 @@ check_divisibility("10","2")
 # In[9]:
 
 
-check_divisibility("7","3")
+check_divisibility("7", "3")
 
 
 # In[10]:
 
 
-check_divisibility("str","3")
+check_divisibility("str", "3")
 
 
 # In[ ]:
-
-
-
-

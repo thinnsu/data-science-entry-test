@@ -2,7 +2,6 @@
 # coding: utf-8
 
 
-
 # In[105]:
 
 
@@ -14,18 +13,18 @@
 #    """
 
 
-
 def findandreplace(lst, oldVal, newVal):
     for i in range(len(lst)):
         if lst[i] == oldVal:
             lst[i] = newVal
+    return lst
 
-print(lst)
+#print(lst)
 
 lst = ["apple", "banana", "cherry", "orange", "cherry"]
-findandreplace(lst, "orange", "kiwi")
-
-
+rst = findandreplace(lst, "orange", "kiwi")
+print (rst)
+# In[107]:
 
 # Task 2
 # Invoke the function "find_and_replace" using the following scenarios:
@@ -34,19 +33,8 @@ findandreplace(lst, "orange", "kiwi")
 
 
 # In[108]:
+# Task 2
 
-
-def findandreplace(lst, oldVal, newVal):
-    for i in range(len(lst)):
-        if lst[i] == oldVal:
-            lst[i] = newVal
-
-print(lst)
-
-lst = [1, 2, 3, 4, 2, 2]
-findandreplace(lst, 2, 5)
-
-
-
-
-
+lst2 = [1, 2, 3, 4, 2, 2]
+rst2 = findandreplace(lst2, 2, 5)   
+print (rst2)

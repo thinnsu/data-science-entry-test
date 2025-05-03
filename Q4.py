@@ -11,11 +11,12 @@ def string_reverse(s):
     - s must be a string.
     - Return the reversed string.
     """
-    revStr = s [::-1]
+    revStr = s[::-1]
     print(revStr)
     return
 
-strTxt = "Hello World" 
+
+strTxt = "Hello World"
 string_reverse(strTxt)
 
 # Task 2
@@ -25,9 +26,3 @@ string_reverse(strTxt)
 
 
 # In[8]:
-
-
-
-
-
-
